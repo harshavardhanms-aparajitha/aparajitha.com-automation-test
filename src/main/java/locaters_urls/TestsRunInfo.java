@@ -1,0 +1,67 @@
+package locaters_urls;
+
+public class TestsRunInfo {
+	
+/*	testng.xml multiple browser parallel excution
+	<?xml version="1.0" encoding="UTF-8"?>
+	<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+	<suite name="Aparajitha Cross-Browser Suite" parallel="tests" thread-count="3">
+
+	    <!-- CHROME -->
+	    <test name="Chrome Sanity Tests" verbose="2">
+	        <parameter name="browser" value="chrome" />
+	        <classes>
+	            <class name="headers_SanityTest.ServicesTests"/>
+	            <class name="headers_SanityTest.ProductsTests"/>
+	            <class name="headers_SanityTest.ELibraryTests"/>
+	            <class name="headers_SanityTest.ResourcesTests"/>
+	            <class name="headers_SanityTest.AboutUsTests"/>
+	            <class name="headers_SanityTest.LoginTests"/>
+	            <class name="headers_SanityTest.CareerTests"/>
+	            <class name="headers_SanityTest.EnquiryFormsTests"/>
+	            <class name="headers_SanityTest.HomePageUITests"/>
+	            <class name="headers_SanityTest.HomePageClickValidations"/>
+	        </classes>
+	    </test>
+
+	    <!-- FIREFOX -->
+	    <test name="Firefox Sanity Tests" verbose="2">
+	        <parameter name="browser" value="firefox" />
+	        <classes>
+	            <class name="headers_SanityTest.ServicesTests"/>
+	            <class name="headers_SanityTest.ProductsTests"/>
+	            <class name="headers_SanityTest.ELibraryTests"/>
+	            <class name="headers_SanityTest.ResourcesTests"/>
+	            <class name="headers_SanityTest.AboutUsTests"/>
+	            <class name="headers_SanityTest.LoginTests"/>
+	            <class name="headers_SanityTest.CareerTests"/>
+	            <class name="headers_SanityTest.EnquiryFormsTests"/>
+	            <class name="headers_SanityTest.HomePageUITests"/>
+	            <class name="headers_SanityTest.HomePageClickValidations"/>
+	        </classes>
+	    </test>
+
+	    <!-- EDGE -->
+	    <test name="Edge Sanity Tests" verbose="2">
+	        <parameter name="browser" value="edge" />
+	        <classes>
+	            <class name="headers_SanityTest.ServicesTests"/>
+	            <class name="headers_SanityTest.ProductsTests"/>
+	            <class name="headers_SanityTest.ELibraryTests"/>
+	            <class name="headers_SanityTest.ResourcesTests"/>
+	            <class name="headers_SanityTest.AboutUsTests"/>
+	            <class name="headers_SanityTest.LoginTests"/>
+	            <class name="headers_SanityTest.CareerTests"/>
+	            <class name="headers_SanityTest.EnquiryFormsTests"/>
+	            <class name="headers_SanityTest.HomePageUITests"/>
+	            <class name="headers_SanityTest.HomePageClickValidations"/>
+	        </classes>
+	    </test>
+
+	    <listeners>
+	        <listener class-name="utilities.ExtentReportListener"/>
+	        <listener class-name="utilities.EmailReportListener"/>
+	    </listeners>
+	</suite>
+*/
+}
