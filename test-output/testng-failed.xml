@@ -8,13 +8,33 @@
   <test thread-count="3" parallel="tests" name="Chrome Sanity Tests(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="headers_SanityTest.ResourcesTests">
+      <class name="headers_SanityTest.LoginTests">
         <methods>
+          <include name="customer_ess_shouldOpen"/>
+          <include name="customer_remo_shouldOpenLogin"/>
           <include name="setUp"/>
+          <include name="employee_userAdministration_shouldOpen"/>
+          <include name="employee_expenses_shouldOpen"/>
+          <include name="employee_remoSpLogin_shouldOpen"/>
+          <include name="customer_audit_shouldOpenSignIn"/>
+          <include name="customer_elibraryLogin_shouldOpen"/>
+          <include name="employee_generalMasters_shouldOpen"/>
+          <include name="employee_tams_shouldOpen"/>
+          <include name="employee_myPeople_shouldOpen"/>
+          <include name="customer_tams_shouldOpenSignIn"/>
+          <include name="customer_remit_shouldOpenLogin"/>
+          <include name="employee_helpdesk_shouldOpen"/>
+          <include name="customer_classic_shouldOpenSignIn"/>
+          <include name="customer_vendor_shouldOpenLogin"/>
+          <include name="employee_recruit_shouldOpen"/>
+          <include name="customer_pf_esi_helpdesk_shouldOpen"/>
+          <include name="employee_classicAudit_shouldOpen"/>
           <include name="tearDown"/>
-          <include name="verifyEventsTab"/>
+          <include name="employee_statutoryMasters_shouldOpen"/>
+          <include name="employee_collect_shouldOpen"/>
+          <include name="employee_remoAdminVpn_shouldOpen"/>
         </methods>
-      </class> <!-- headers_SanityTest.ResourcesTests -->
+      </class> <!-- headers_SanityTest.LoginTests -->
     </classes>
   </test> <!-- Chrome Sanity Tests(failed) -->
 </suite> <!-- Failed suite [Aparajitha Cross-Browser Suite] -->

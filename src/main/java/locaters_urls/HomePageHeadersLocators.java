@@ -11,7 +11,7 @@ public class HomePageHeadersLocators {
     public static final By RESOURCES_DROPDOWN = By.xpath("(//*[contains(text(), 'Resources')])[1]");
     public static final By ABOUTUS_DROPDOWN = By.xpath("(//*[contains(text(), 'About Us')])[1]");
     // There are two index variants used in different places — keep the [2] one as primary per your mapping
-    public static final By LOGIN_DROPDOWN = By.xpath("(//*[contains(text(), 'Login')])[2]");
+    public static final By LOGIN_DROPDOWN = By.xpath("(//*[contains(text(), 'Login')])[1]");
     // alternate / fallback (if needed)
    
 
@@ -140,13 +140,13 @@ public class HomePageHeadersLocators {
 
  // ====================== CUSTOMER LOGIN (9 tabs) ======================
 
- public static final By CUSTOMER_REMO = By.xpath("(//*[contains(text(), 'Remo')])[4]");
+ public static final By CUSTOMER_REMO = By.xpath("(//*[contains(text(), 'Remo')])[5]");
  public static final By CUSTOMER_VALIDATE_REMO = By.xpath("(//*[text() = 'Login'])[2]");
 
- public static final By CUSTOMER_VENDOR = By.xpath("(//*[contains(text(), 'Vendor')])[8]");
+ public static final By CUSTOMER_VENDOR = By.xpath("(//*[contains(text(), 'Vendor')])[6]");
  public static final By CUSTOMER_VALIDATE_VENDOR = By.xpath("(//*[text() = 'Login'])[2]");
 
- public static final By CUSTOMER_CLASSIC = By.xpath("(//*[contains(text(), 'Classic')])[6]");
+ public static final By CUSTOMER_CLASSIC = By.xpath("(//*[contains(text(), 'Classic')])[5]");
  public static final By CUSTOMER_VALIDATE_CLASSIC = By.xpath("//*[text() = ' Sign In ']");
 
  public static final By CUSTOMER_REMIT = By.xpath("(//*[contains(text(), 'Remit')])[2]");
@@ -155,7 +155,7 @@ public class HomePageHeadersLocators {
  public static final By CUSTOMER_TAMS = By.xpath("(//*[contains(text(), 'TAMS')])[3]");
  public static final By CUSTOMER_VALIDATE_TAMS = By.xpath("//*[text() = ' Sign In ']");
 
- public static final By CUSTOMER_AUDIT = By.xpath("(//*[contains(text(), 'Audit')])[9]");
+ public static final By CUSTOMER_AUDIT = By.xpath("(//*[contains(text(), 'Audit')])[7]");
  public static final By CUSTOMER_VALIDATE_AUDIT = By.xpath("//*[text() = ' Sign In ']");
 
  public static final By CUSTOMER_ELIBRARY_LOGIN = By.xpath("(//*[contains(text(), 'e-Library')])[4]");
@@ -174,7 +174,7 @@ public class HomePageHeadersLocators {
  public static final By EMPLOYEE_MYPEOPLE = By.xpath("(//*[contains(text(), 'MyPeople')])[2]");
  public static final By EMPLOYEE_VALIDATE_MYPEOPLE = By.xpath("//*[contains(text(), 'Your complete online HR solution')]");
 
- public static final By EMPLOYEE_COLLECT = By.xpath("(//*[contains(text(), 'Collect')])[2]");
+ public static final By EMPLOYEE_COLLECT = By.xpath("(//*[contains(text(), 'Collect')])[3]");
  public static final By EMPLOYEE_VALIDATE_COLLECT = By.xpath("//*[contains(text(), 'Sign in')]");
 
  public static final By EMPLOYEE_EXPENSES = By.xpath("(//*[contains(text(), 'Expenses')])[2]");
@@ -208,7 +208,7 @@ public class HomePageHeadersLocators {
  public static final By EMPLOYEE_VALIDATE_CLASSIC_AUDIT = By.xpath("//*[text() = ' Sign In ']");
 
     // ====== CAREER VALIDATOR ======
- public static final By CAREER_LINK = By.xpath("(//a[@aria-label=\"Career\"])[1]");   
+ public static final By CAREER_LINK = By.xpath("(//*[text()='Career'])[1]");   
  public static final By CAREER_VALIDATE_TEXT = By.xpath("//*[text()= 'View Openings']");
 
 }

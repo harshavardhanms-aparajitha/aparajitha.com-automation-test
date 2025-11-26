@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Chrome Sanity Tests</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>67/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>68/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Nov 25 09:43:22 IST 2025</td>
+<td>Started on:</td><td>Wed Nov 26 10:47:54 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>1089 seconds (1089093 ms)</td>
+<tr><td>Total time:</td><td>424 seconds (424972 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,84 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='headers_SanityTest.ResourcesTests.verifyEventsTab()'><b>verifyEventsTab</b><br>Test class: headers_SanityTest.ResourcesTests</td>
-<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: (//*[contains(text(), &apos;Events&apos;)])[3] (tried for 15 second(s) with 500 milliseconds interval)
-Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52651}, goog:processID: 21588, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52651/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 56f0c7ffd7b31db58727b5991ae14d7f
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at baseClass.BaseTest.waitForVisibility(BaseTest.java:84)
-	at baseClass.BaseTest.hoverAndClick(BaseTest.java:127)
-	at headers_SanityTest.ResourcesTests.verifyEventsTab(ResourcesTests.java:16)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1575)
-</pre></div><a href='#' onClick='toggleBox("stack-trace943640677", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace943640677'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: (//*[contains(text(), &apos;Events&apos;)])[3] (tried for 15 second(s) with 500 milliseconds interval)
-Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52651}, goog:processID: 21588, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52651/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 56f0c7ffd7b31db58727b5991ae14d7f
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at baseClass.BaseTest.waitForVisibility(BaseTest.java:84)
-	at baseClass.BaseTest.hoverAndClick(BaseTest.java:127)
-	at headers_SanityTest.ResourcesTests.verifyEventsTab(ResourcesTests.java:16)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1575)
-</pre></div></td>
-<td>15</td>
-<td>headers_SanityTest.ResourcesTests@928763c</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -153,340 +75,345 @@ Session ID: 56f0c7ffd7b31db58727b5991ae14d7f
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='headers_SanityTest.LoginTests.employee_recruit_shouldOpen()'><b>employee_recruit_shouldOpen</b><br>Test class: headers_SanityTest.LoginTests</td>
-<td></td>
-<td>3</td>
-<td>headers_SanityTest.LoginTests@15f47664</td></tr>
-<tr>
-<td title='headers_SanityTest.EnquiryFormsTests.verifyEnquireNowForm()'><b>verifyEnquireNowForm</b><br>Test class: headers_SanityTest.EnquiryFormsTests</td>
-<td></td>
-<td>17</td>
-<td>headers_SanityTest.EnquiryFormsTests@dc9876b</td></tr>
-<tr>
-<td title='headers_SanityTest.LoginTests.customer_classic_shouldOpenSignIn()'><b>customer_classic_shouldOpenSignIn</b><br>Test class: headers_SanityTest.LoginTests</td>
-<td></td>
-<td>7</td>
-<td>headers_SanityTest.LoginTests@15f47664</td></tr>
-<tr>
-<td title='headers_SanityTest.ServicesTests.verifyEstablishmentCompliances()'><b>verifyEstablishmentCompliances</b><br>Test class: headers_SanityTest.ServicesTests</td>
-<td></td>
-<td>4</td>
-<td>headers_SanityTest.ServicesTests@18ece7f4</td></tr>
-<tr>
-<td title='headers_SanityTest.ResourcesTests.verifyESDMReportTab()'><b>verifyESDMReportTab</b><br>Test class: headers_SanityTest.ResourcesTests</td>
-<td></td>
-<td>3</td>
-<td>headers_SanityTest.ResourcesTests@928763c</td></tr>
-<tr>
-<td title='headers_SanityTest.CareerTests.verifyCareerPageAndApplyNow()'><b>verifyCareerPageAndApplyNow</b><br>Test class: headers_SanityTest.CareerTests</td>
-<td></td>
-<td>25</td>
-<td>headers_SanityTest.CareerTests@471a9022</td></tr>
-<tr>
-<td title='headers_SanityTest.AboutUsTests.verifyManagementTab()'><b>verifyManagementTab</b><br>Test class: headers_SanityTest.AboutUsTests</td>
+<td title='headers_SanityTest.ResourcesTests.verifyEventsTab()'><b>verifyEventsTab</b><br>Test class: headers_SanityTest.ResourcesTests</td>
 <td></td>
 <td>1</td>
-<td>headers_SanityTest.AboutUsTests@e25951c</td></tr>
-<tr>
-<td title='headers_SanityTest.LoginTests.customer_pf_esi_helpdesk_shouldOpen()'><b>customer_pf_esi_helpdesk_shouldOpen</b><br>Test class: headers_SanityTest.LoginTests</td>
-<td></td>
-<td>10</td>
-<td>headers_SanityTest.LoginTests@15f47664</td></tr>
-<tr>
-<td title='headers_SanityTest.LoginTests.employee_helpdesk_shouldOpen()'><b>employee_helpdesk_shouldOpen</b><br>Test class: headers_SanityTest.LoginTests</td>
-<td></td>
-<td>10</td>
-<td>headers_SanityTest.LoginTests@15f47664</td></tr>
-<tr>
-<td title='headers_SanityTest.ServicesTests.verifyComplianceRiskAudit()'><b>verifyComplianceRiskAudit</b><br>Test class: headers_SanityTest.ServicesTests</td>
-<td></td>
-<td>8</td>
-<td>headers_SanityTest.ServicesTests@18ece7f4</td></tr>
-<tr>
-<td title='headers_SanityTest.ELibraryTests.verifyLEIComplianceCalendarPDF()'><b>verifyLEIComplianceCalendarPDF</b><br>Test class: headers_SanityTest.ELibraryTests</td>
-<td></td>
-<td>2</td>
-<td>headers_SanityTest.ELibraryTests@3cfdd820</td></tr>
-<tr>
-<td title='headers_SanityTest.ResourcesTests.verifyBlogTab()'><b>verifyBlogTab</b><br>Test class: headers_SanityTest.ResourcesTests</td>
-<td></td>
-<td>3</td>
-<td>headers_SanityTest.ResourcesTests@928763c</td></tr>
-<tr>
-<td title='headers_SanityTest.EnquiryFormsTests.verifyITeSReportForm()'><b>verifyITeSReportForm</b><br>Test class: headers_SanityTest.EnquiryFormsTests</td>
-<td></td>
-<td>6</td>
-<td>headers_SanityTest.EnquiryFormsTests@dc9876b</td></tr>
-<tr>
-<td title='headers_SanityTest.EnquiryFormsTests.verifyITESFieldValidations()'><b>verifyITESFieldValidations</b><br>Test class: headers_SanityTest.EnquiryFormsTests</td>
-<td></td>
-<td>3</td>
-<td>headers_SanityTest.EnquiryFormsTests@dc9876b</td></tr>
-<tr>
-<td title='headers_SanityTest.EnquiryFormsTests.verifyEnquiryFormFieldValidations()'><b>verifyEnquiryFormFieldValidations</b><br>Test class: headers_SanityTest.EnquiryFormsTests</td>
-<td></td>
-<td>2</td>
-<td>headers_SanityTest.EnquiryFormsTests@dc9876b</td></tr>
-<tr>
-<td title='headers_SanityTest.LoginTests.customer_remo_shouldOpenLogin()'><b>customer_remo_shouldOpenLogin</b><br>Test class: headers_SanityTest.LoginTests</td>
-<td></td>
-<td>5</td>
-<td>headers_SanityTest.LoginTests@15f47664</td></tr>
-<tr>
-<td title='headers_SanityTest.ELibraryTests.verifyLeaveWorkingHours()'><b>verifyLeaveWorkingHours</b><br>Test class: headers_SanityTest.ELibraryTests</td>
-<td></td>
-<td>10</td>
-<td>headers_SanityTest.ELibraryTests@3cfdd820</td></tr>
-<tr>
-<td title='headers_SanityTest.HomePageClickValidations.verifyAllBlogsNavigation()'><b>verifyAllBlogsNavigation</b><br>Test class: headers_SanityTest.HomePageClickValidations</td>
-<td></td>
-<td>5</td>
-<td>headers_SanityTest.HomePageClickValidations@a1f72f5</td></tr>
-<tr>
-<td title='headers_SanityTest.LoginTests.customer_elibraryLogin_shouldOpen()'><b>customer_elibraryLogin_shouldOpen</b><br>Test class: headers_SanityTest.LoginTests</td>
-<td></td>
-<td>3</td>
-<td>headers_SanityTest.LoginTests@15f47664</td></tr>
-<tr>
-<td title='headers_SanityTest.LoginTests.customer_remit_shouldOpenLogin()'><b>customer_remit_shouldOpenLogin</b><br>Test class: headers_SanityTest.LoginTests</td>
-<td></td>
-<td>8</td>
-<td>headers_SanityTest.LoginTests@15f47664</td></tr>
-<tr>
-<td title='headers_SanityTest.EnquiryFormsTests.verifyESDMFieldValidations()'><b>verifyESDMFieldValidations</b><br>Test class: headers_SanityTest.EnquiryFormsTests</td>
-<td></td>
-<td>8</td>
-<td>headers_SanityTest.EnquiryFormsTests@dc9876b</td></tr>
-<tr>
-<td title='headers_SanityTest.HomePageUITests.verifyHomePageUIElements()'><b>verifyHomePageUIElements</b><br>Test class: headers_SanityTest.HomePageUITests</td>
-<td></td>
-<td>4</td>
-<td>headers_SanityTest.HomePageUITests@19976a65</td></tr>
-<tr>
-<td title='headers_SanityTest.LoginTests.employee_remoSpLogin_shouldOpen()'><b>employee_remoSpLogin_shouldOpen</b><br>Test class: headers_SanityTest.LoginTests</td>
-<td></td>
-<td>1</td>
-<td>headers_SanityTest.LoginTests@15f47664</td></tr>
-<tr>
-<td title='headers_SanityTest.ELibraryTests.verifyLatestMinimumWages()'><b>verifyLatestMinimumWages</b><br>Test class: headers_SanityTest.ELibraryTests</td>
-<td></td>
-<td>8</td>
-<td>headers_SanityTest.ELibraryTests@3cfdd820</td></tr>
-<tr>
-<td title='headers_SanityTest.ServicesTests.verifyPayrollServices()'><b>verifyPayrollServices</b><br>Test class: headers_SanityTest.ServicesTests</td>
-<td></td>
-<td>2</td>
-<td>headers_SanityTest.ServicesTests@18ece7f4</td></tr>
-<tr>
-<td title='headers_SanityTest.ELibraryTests.verifyLabourWelfareFund()'><b>verifyLabourWelfareFund</b><br>Test class: headers_SanityTest.ELibraryTests</td>
-<td></td>
-<td>9</td>
-<td>headers_SanityTest.ELibraryTests@3cfdd820</td></tr>
-<tr>
-<td title='headers_SanityTest.ServicesTests.verifyVendorComplianceServices()'><b>verifyVendorComplianceServices</b><br>Test class: headers_SanityTest.ServicesTests</td>
-<td></td>
-<td>1</td>
-<td>headers_SanityTest.ServicesTests@18ece7f4</td></tr>
-<tr>
-<td title='headers_SanityTest.LoginTests.employee_myPeople_shouldOpen()'><b>employee_myPeople_shouldOpen</b><br>Test class: headers_SanityTest.LoginTests</td>
-<td></td>
-<td>1</td>
-<td>headers_SanityTest.LoginTests@15f47664</td></tr>
-<tr>
-<td title='headers_SanityTest.ResourcesTests.verifyMediaPressTab()'><b>verifyMediaPressTab</b><br>Test class: headers_SanityTest.ResourcesTests</td>
-<td></td>
-<td>5</td>
-<td>headers_SanityTest.ResourcesTests@928763c</td></tr>
-<tr>
-<td title='headers_SanityTest.LoginTests.customer_vendor_shouldOpenLogin()'><b>customer_vendor_shouldOpenLogin</b><br>Test class: headers_SanityTest.LoginTests</td>
-<td></td>
-<td>5</td>
-<td>headers_SanityTest.LoginTests@15f47664</td></tr>
-<tr>
-<td title='headers_SanityTest.ProductsTests.verifySimplianceRemo()'><b>verifySimplianceRemo</b><br>Test class: headers_SanityTest.ProductsTests</td>
-<td></td>
-<td>1</td>
-<td>headers_SanityTest.ProductsTests@6f8e8894</td></tr>
-<tr>
-<td title='headers_SanityTest.ELibraryTests.verifyProvidentFund()'><b>verifyProvidentFund</b><br>Test class: headers_SanityTest.ELibraryTests</td>
-<td></td>
-<td>8</td>
-<td>headers_SanityTest.ELibraryTests@3cfdd820</td></tr>
-<tr>
-<td title='headers_SanityTest.ProductsTests.verifySimplianceVendor()'><b>verifySimplianceVendor</b><br>Test class: headers_SanityTest.ProductsTests</td>
-<td></td>
-<td>2</td>
-<td>headers_SanityTest.ProductsTests@6f8e8894</td></tr>
-<tr>
-<td title='headers_SanityTest.LoginTests.employee_tams_shouldOpen()'><b>employee_tams_shouldOpen</b><br>Test class: headers_SanityTest.LoginTests</td>
-<td></td>
-<td>4</td>
-<td>headers_SanityTest.LoginTests@15f47664</td></tr>
+<td>headers_SanityTest.ResourcesTests@28194a50</td></tr>
 <tr>
 <td title='headers_SanityTest.ELibraryTests.verifyHolidaysList()'><b>verifyHolidaysList</b><br>Test class: headers_SanityTest.ELibraryTests</td>
 <td></td>
-<td>18</td>
-<td>headers_SanityTest.ELibraryTests@3cfdd820</td></tr>
-<tr>
-<td title='headers_SanityTest.LoginTests.employee_generalMasters_shouldOpen()'><b>employee_generalMasters_shouldOpen</b><br>Test class: headers_SanityTest.LoginTests</td>
-<td></td>
-<td>11</td>
-<td>headers_SanityTest.LoginTests@15f47664</td></tr>
-<tr>
-<td title='headers_SanityTest.ELibraryTests.verifyProfessionalTax()'><b>verifyProfessionalTax</b><br>Test class: headers_SanityTest.ELibraryTests</td>
-<td></td>
-<td>23</td>
-<td>headers_SanityTest.ELibraryTests@3cfdd820</td></tr>
-<tr>
-<td title='headers_SanityTest.HomePageClickValidations.verifyISOQMSCertificatePDF()'><b>verifyISOQMSCertificatePDF</b><br>Test class: headers_SanityTest.HomePageClickValidations</td>
-<td></td>
-<td>0</td>
-<td>headers_SanityTest.HomePageClickValidations@a1f72f5</td></tr>
-<tr>
-<td title='headers_SanityTest.AboutUsTests.verifyTestimonialsTab()'><b>verifyTestimonialsTab</b><br>Test class: headers_SanityTest.AboutUsTests</td>
-<td></td>
-<td>8</td>
-<td>headers_SanityTest.AboutUsTests@e25951c</td></tr>
-<tr>
-<td title='headers_SanityTest.ServicesTests.verifyMinesComplianceServices()'><b>verifyMinesComplianceServices</b><br>Test class: headers_SanityTest.ServicesTests</td>
-<td></td>
-<td>5</td>
-<td>headers_SanityTest.ServicesTests@18ece7f4</td></tr>
-<tr>
-<td title='headers_SanityTest.ResourcesTests.verifyITeSReportTab()'><b>verifyITeSReportTab</b><br>Test class: headers_SanityTest.ResourcesTests</td>
-<td></td>
-<td>15</td>
-<td>headers_SanityTest.ResourcesTests@928763c</td></tr>
-<tr>
-<td title='headers_SanityTest.AboutUsTests.verifyOurClientsTab()'><b>verifyOurClientsTab</b><br>Test class: headers_SanityTest.AboutUsTests</td>
-<td></td>
-<td>1</td>
-<td>headers_SanityTest.AboutUsTests@e25951c</td></tr>
-<tr>
-<td title='headers_SanityTest.LoginTests.employee_statutoryMasters_shouldOpen()'><b>employee_statutoryMasters_shouldOpen</b><br>Test class: headers_SanityTest.LoginTests</td>
-<td></td>
-<td>46</td>
-<td>headers_SanityTest.LoginTests@15f47664</td></tr>
-<tr>
-<td title='headers_SanityTest.AboutUsTests.verifyContactUsTab()'><b>verifyContactUsTab</b><br>Test class: headers_SanityTest.AboutUsTests</td>
-<td></td>
-<td>1</td>
-<td>headers_SanityTest.AboutUsTests@e25951c</td></tr>
-<tr>
-<td title='headers_SanityTest.ResourcesTests.verifyCSRTab()'><b>verifyCSRTab</b><br>Test class: headers_SanityTest.ResourcesTests</td>
-<td></td>
 <td>2</td>
-<td>headers_SanityTest.ResourcesTests@928763c</td></tr>
+<td>headers_SanityTest.ELibraryTests@6cc4cdb9</td></tr>
 <tr>
-<td title='headers_SanityTest.LoginTests.customer_ess_shouldOpen()'><b>customer_ess_shouldOpen</b><br>Test class: headers_SanityTest.LoginTests</td>
+<td title='headers_SanityTest.LoginTests.customer_vendor_shouldOpenLogin()'><b>customer_vendor_shouldOpenLogin</b><br>Test class: headers_SanityTest.LoginTests</td>
 <td></td>
-<td>5</td>
-<td>headers_SanityTest.LoginTests@15f47664</td></tr>
-<tr>
-<td title='headers_SanityTest.LoginTests.customer_tams_shouldOpenSignIn()'><b>customer_tams_shouldOpenSignIn</b><br>Test class: headers_SanityTest.LoginTests</td>
-<td></td>
-<td>8</td>
-<td>headers_SanityTest.LoginTests@15f47664</td></tr>
-<tr>
-<td title='headers_SanityTest.LoginTests.customer_audit_shouldOpenSignIn()'><b>customer_audit_shouldOpenSignIn</b><br>Test class: headers_SanityTest.LoginTests</td>
-<td></td>
-<td>7</td>
-<td>headers_SanityTest.LoginTests@15f47664</td></tr>
+<td>1</td>
+<td>headers_SanityTest.LoginTests@1a5b6f42</td></tr>
 <tr>
 <td title='headers_SanityTest.ELibraryTests.verifyFCCComplianceCalendarPDF()'><b>verifyFCCComplianceCalendarPDF</b><br>Test class: headers_SanityTest.ELibraryTests</td>
 <td></td>
-<td>6</td>
-<td>headers_SanityTest.ELibraryTests@3cfdd820</td></tr>
+<td>1</td>
+<td>headers_SanityTest.ELibraryTests@6cc4cdb9</td></tr>
+<tr>
+<td title='headers_SanityTest.ELibraryTests.verifyLabourWelfareFund()'><b>verifyLabourWelfareFund</b><br>Test class: headers_SanityTest.ELibraryTests</td>
+<td></td>
+<td>3</td>
+<td>headers_SanityTest.ELibraryTests@6cc4cdb9</td></tr>
+<tr>
+<td title='headers_SanityTest.ProductsTests.verifySimplianceVendor()'><b>verifySimplianceVendor</b><br>Test class: headers_SanityTest.ProductsTests</td>
+<td></td>
+<td>1</td>
+<td>headers_SanityTest.ProductsTests@50f6ac94</td></tr>
+<tr>
+<td title='headers_SanityTest.LoginTests.customer_remit_shouldOpenLogin()'><b>customer_remit_shouldOpenLogin</b><br>Test class: headers_SanityTest.LoginTests</td>
+<td></td>
+<td>1</td>
+<td>headers_SanityTest.LoginTests@1a5b6f42</td></tr>
+<tr>
+<td title='headers_SanityTest.ServicesTests.verifyEstablishmentCompliances()'><b>verifyEstablishmentCompliances</b><br>Test class: headers_SanityTest.ServicesTests</td>
+<td></td>
+<td>1</td>
+<td>headers_SanityTest.ServicesTests@565f390</td></tr>
+<tr>
+<td title='headers_SanityTest.ServicesTests.verifyMinesComplianceServices()'><b>verifyMinesComplianceServices</b><br>Test class: headers_SanityTest.ServicesTests</td>
+<td></td>
+<td>1</td>
+<td>headers_SanityTest.ServicesTests@565f390</td></tr>
+<tr>
+<td title='headers_SanityTest.LoginTests.customer_pf_esi_helpdesk_shouldOpen()'><b>customer_pf_esi_helpdesk_shouldOpen</b><br>Test class: headers_SanityTest.LoginTests</td>
+<td></td>
+<td>4</td>
+<td>headers_SanityTest.LoginTests@1a5b6f42</td></tr>
+<tr>
+<td title='headers_SanityTest.HomePageClickValidations.verifyISOIECCertificatePDF()'><b>verifyISOIECCertificatePDF</b><br>Test class: headers_SanityTest.HomePageClickValidations</td>
+<td></td>
+<td>0</td>
+<td>headers_SanityTest.HomePageClickValidations@7d9f158f</td></tr>
+<tr>
+<td title='headers_SanityTest.LoginTests.employee_tams_shouldOpen()'><b>employee_tams_shouldOpen</b><br>Test class: headers_SanityTest.LoginTests</td>
+<td></td>
+<td>2</td>
+<td>headers_SanityTest.LoginTests@1a5b6f42</td></tr>
+<tr>
+<td title='headers_SanityTest.LoginTests.customer_ess_shouldOpen()'><b>customer_ess_shouldOpen</b><br>Test class: headers_SanityTest.LoginTests</td>
+<td></td>
+<td>1</td>
+<td>headers_SanityTest.LoginTests@1a5b6f42</td></tr>
+<tr>
+<td title='headers_SanityTest.LoginTests.employee_userAdministration_shouldOpen()'><b>employee_userAdministration_shouldOpen</b><br>Test class: headers_SanityTest.LoginTests</td>
+<td></td>
+<td>2</td>
+<td>headers_SanityTest.LoginTests@1a5b6f42</td></tr>
 <tr>
 <td title='headers_SanityTest.ServicesTests.verifyEHS()'><b>verifyEHS</b><br>Test class: headers_SanityTest.ServicesTests</td>
 <td></td>
 <td>1</td>
-<td>headers_SanityTest.ServicesTests@18ece7f4</td></tr>
+<td>headers_SanityTest.ServicesTests@565f390</td></tr>
 <tr>
-<td title='headers_SanityTest.LoginTests.employee_classicAudit_shouldOpen()'><b>employee_classicAudit_shouldOpen</b><br>Test class: headers_SanityTest.LoginTests</td>
-<td></td>
-<td>5</td>
-<td>headers_SanityTest.LoginTests@15f47664</td></tr>
-<tr>
-<td title='headers_SanityTest.HomePageClickValidations.verifyISOIECCertificatePDF()'><b>verifyISOIECCertificatePDF</b><br>Test class: headers_SanityTest.HomePageClickValidations</td>
-<td></td>
-<td>1</td>
-<td>headers_SanityTest.HomePageClickValidations@a1f72f5</td></tr>
-<tr>
-<td title='headers_SanityTest.AboutUsTests.verifyOurCompanyTab()'><b>verifyOurCompanyTab</b><br>Test class: headers_SanityTest.AboutUsTests</td>
-<td></td>
-<td>5</td>
-<td>headers_SanityTest.AboutUsTests@e25951c</td></tr>
-<tr>
-<td title='headers_SanityTest.EnquiryFormsTests.verifyContactUsForm()'><b>verifyContactUsForm</b><br>Test class: headers_SanityTest.EnquiryFormsTests</td>
-<td></td>
-<td>14</td>
-<td>headers_SanityTest.EnquiryFormsTests@dc9876b</td></tr>
-<tr>
-<td title='headers_SanityTest.ServicesTests.verifyPayrollComplianceServices()'><b>verifyPayrollComplianceServices</b><br>Test class: headers_SanityTest.ServicesTests</td>
-<td></td>
-<td>6</td>
-<td>headers_SanityTest.ServicesTests@18ece7f4</td></tr>
-<tr>
-<td title='headers_SanityTest.ServicesTests.verifyFactoryComplianceServices()'><b>verifyFactoryComplianceServices</b><br>Test class: headers_SanityTest.ServicesTests</td>
-<td></td>
-<td>2</td>
-<td>headers_SanityTest.ServicesTests@18ece7f4</td></tr>
-<tr>
-<td title='headers_SanityTest.LoginTests.employee_userAdministration_shouldOpen()'><b>employee_userAdministration_shouldOpen</b><br>Test class: headers_SanityTest.LoginTests</td>
+<td title='headers_SanityTest.CareerTests.verifyCareerPageAndApplyNow()'><b>verifyCareerPageAndApplyNow</b><br>Test class: headers_SanityTest.CareerTests</td>
 <td></td>
 <td>4</td>
-<td>headers_SanityTest.LoginTests@15f47664</td></tr>
+<td>headers_SanityTest.CareerTests@5038d0b5</td></tr>
 <tr>
-<td title='headers_SanityTest.ServicesTests.verifyFlexiStaffingServices()'><b>verifyFlexiStaffingServices</b><br>Test class: headers_SanityTest.ServicesTests</td>
-<td></td>
-<td>6</td>
-<td>headers_SanityTest.ServicesTests@18ece7f4</td></tr>
-<tr>
-<td title='headers_SanityTest.HomePageClickValidations.verifyCaseStudyNavigation()'><b>verifyCaseStudyNavigation</b><br>Test class: headers_SanityTest.HomePageClickValidations</td>
+<td title='headers_SanityTest.EnquiryFormsTests.verifyEnquiryFormFieldValidations()'><b>verifyEnquiryFormFieldValidations</b><br>Test class: headers_SanityTest.EnquiryFormsTests</td>
 <td></td>
 <td>2</td>
-<td>headers_SanityTest.HomePageClickValidations@a1f72f5</td></tr>
+<td>headers_SanityTest.EnquiryFormsTests@32115b28</td></tr>
+<tr>
+<td title='headers_SanityTest.HomePageUITests.verifyHomePageUIElements()'><b>verifyHomePageUIElements</b><br>Test class: headers_SanityTest.HomePageUITests</td>
+<td></td>
+<td>4</td>
+<td>headers_SanityTest.HomePageUITests@6bb4dd34</td></tr>
+<tr>
+<td title='headers_SanityTest.EnquiryFormsTests.verifyITeSReportForm()'><b>verifyITeSReportForm</b><br>Test class: headers_SanityTest.EnquiryFormsTests</td>
+<td></td>
+<td>3</td>
+<td>headers_SanityTest.EnquiryFormsTests@32115b28</td></tr>
+<tr>
+<td title='headers_SanityTest.LoginTests.employee_statutoryMasters_shouldOpen()'><b>employee_statutoryMasters_shouldOpen</b><br>Test class: headers_SanityTest.LoginTests</td>
+<td></td>
+<td>10</td>
+<td>headers_SanityTest.LoginTests@1a5b6f42</td></tr>
+<tr>
+<td title='headers_SanityTest.LoginTests.customer_classic_shouldOpenSignIn()'><b>customer_classic_shouldOpenSignIn</b><br>Test class: headers_SanityTest.LoginTests</td>
+<td></td>
+<td>5</td>
+<td>headers_SanityTest.LoginTests@1a5b6f42</td></tr>
+<tr>
+<td title='headers_SanityTest.ResourcesTests.verifyCaseStudiesTab()'><b>verifyCaseStudiesTab</b><br>Test class: headers_SanityTest.ResourcesTests</td>
+<td></td>
+<td>1</td>
+<td>headers_SanityTest.ResourcesTests@28194a50</td></tr>
+<tr>
+<td title='headers_SanityTest.ProductsTests.verifySimplianceClassic()'><b>verifySimplianceClassic</b><br>Test class: headers_SanityTest.ProductsTests</td>
+<td></td>
+<td>1</td>
+<td>headers_SanityTest.ProductsTests@50f6ac94</td></tr>
 <tr>
 <td title='headers_SanityTest.ProductsTests.verifySimplianceAudit()'><b>verifySimplianceAudit</b><br>Test class: headers_SanityTest.ProductsTests</td>
 <td></td>
-<td>8</td>
-<td>headers_SanityTest.ProductsTests@6f8e8894</td></tr>
+<td>1</td>
+<td>headers_SanityTest.ProductsTests@50f6ac94</td></tr>
 <tr>
-<td title='headers_SanityTest.EnquiryFormsTests.verifyESDMIndustryReportForm()'><b>verifyESDMIndustryReportForm</b><br>Test class: headers_SanityTest.EnquiryFormsTests</td>
+<td title='headers_SanityTest.EnquiryFormsTests.verifyITESFieldValidations()'><b>verifyITESFieldValidations</b><br>Test class: headers_SanityTest.EnquiryFormsTests</td>
+<td></td>
+<td>2</td>
+<td>headers_SanityTest.EnquiryFormsTests@32115b28</td></tr>
+<tr>
+<td title='headers_SanityTest.LoginTests.customer_audit_shouldOpenSignIn()'><b>customer_audit_shouldOpenSignIn</b><br>Test class: headers_SanityTest.LoginTests</td>
 <td></td>
 <td>5</td>
-<td>headers_SanityTest.EnquiryFormsTests@dc9876b</td></tr>
+<td>headers_SanityTest.LoginTests@1a5b6f42</td></tr>
 <tr>
-<td title='headers_SanityTest.LoginTests.employee_collect_shouldOpen()'><b>employee_collect_shouldOpen</b><br>Test class: headers_SanityTest.LoginTests</td>
+<td title='headers_SanityTest.ResourcesTests.verifyITeSReportTab()'><b>verifyITeSReportTab</b><br>Test class: headers_SanityTest.ResourcesTests</td>
 <td></td>
-<td>3</td>
-<td>headers_SanityTest.LoginTests@15f47664</td></tr>
+<td>1</td>
+<td>headers_SanityTest.ResourcesTests@28194a50</td></tr>
+<tr>
+<td title='headers_SanityTest.EnquiryFormsTests.verifyESDMFieldValidations()'><b>verifyESDMFieldValidations</b><br>Test class: headers_SanityTest.EnquiryFormsTests</td>
+<td></td>
+<td>2</td>
+<td>headers_SanityTest.EnquiryFormsTests@32115b28</td></tr>
 <tr>
 <td title='headers_SanityTest.LoginTests.employee_remoAdminVpn_shouldOpen()'><b>employee_remoAdminVpn_shouldOpen</b><br>Test class: headers_SanityTest.LoginTests</td>
 <td></td>
 <td>1</td>
-<td>headers_SanityTest.LoginTests@15f47664</td></tr>
+<td>headers_SanityTest.LoginTests@1a5b6f42</td></tr>
+<tr>
+<td title='headers_SanityTest.AboutUsTests.verifyManagementTab()'><b>verifyManagementTab</b><br>Test class: headers_SanityTest.AboutUsTests</td>
+<td></td>
+<td>1</td>
+<td>headers_SanityTest.AboutUsTests@7f2cfe3f</td></tr>
+<tr>
+<td title='headers_SanityTest.LoginTests.employee_helpdesk_shouldOpen()'><b>employee_helpdesk_shouldOpen</b><br>Test class: headers_SanityTest.LoginTests</td>
+<td></td>
+<td>5</td>
+<td>headers_SanityTest.LoginTests@1a5b6f42</td></tr>
+<tr>
+<td title='headers_SanityTest.ServicesTests.verifyFactoryComplianceServices()'><b>verifyFactoryComplianceServices</b><br>Test class: headers_SanityTest.ServicesTests</td>
+<td></td>
+<td>1</td>
+<td>headers_SanityTest.ServicesTests@565f390</td></tr>
+<tr>
+<td title='headers_SanityTest.AboutUsTests.verifyContactUsTab()'><b>verifyContactUsTab</b><br>Test class: headers_SanityTest.AboutUsTests</td>
+<td></td>
+<td>1</td>
+<td>headers_SanityTest.AboutUsTests@7f2cfe3f</td></tr>
+<tr>
+<td title='headers_SanityTest.HomePageClickValidations.verifyAllBlogsNavigation()'><b>verifyAllBlogsNavigation</b><br>Test class: headers_SanityTest.HomePageClickValidations</td>
+<td></td>
+<td>2</td>
+<td>headers_SanityTest.HomePageClickValidations@7d9f158f</td></tr>
+<tr>
+<td title='headers_SanityTest.ServicesTests.verifyPayrollServices()'><b>verifyPayrollServices</b><br>Test class: headers_SanityTest.ServicesTests</td>
+<td></td>
+<td>1</td>
+<td>headers_SanityTest.ServicesTests@565f390</td></tr>
+<tr>
+<td title='headers_SanityTest.ServicesTests.verifyPayrollComplianceServices()'><b>verifyPayrollComplianceServices</b><br>Test class: headers_SanityTest.ServicesTests</td>
+<td></td>
+<td>1</td>
+<td>headers_SanityTest.ServicesTests@565f390</td></tr>
+<tr>
+<td title='headers_SanityTest.LoginTests.customer_remo_shouldOpenLogin()'><b>customer_remo_shouldOpenLogin</b><br>Test class: headers_SanityTest.LoginTests</td>
+<td></td>
+<td>3</td>
+<td>headers_SanityTest.LoginTests@1a5b6f42</td></tr>
+<tr>
+<td title='headers_SanityTest.LoginTests.customer_tams_shouldOpenSignIn()'><b>customer_tams_shouldOpenSignIn</b><br>Test class: headers_SanityTest.LoginTests</td>
+<td></td>
+<td>2</td>
+<td>headers_SanityTest.LoginTests@1a5b6f42</td></tr>
+<tr>
+<td title='headers_SanityTest.ServicesTests.verifyVendorComplianceServices()'><b>verifyVendorComplianceServices</b><br>Test class: headers_SanityTest.ServicesTests</td>
+<td></td>
+<td>1</td>
+<td>headers_SanityTest.ServicesTests@565f390</td></tr>
+<tr>
+<td title='headers_SanityTest.AboutUsTests.verifyOurCompanyTab()'><b>verifyOurCompanyTab</b><br>Test class: headers_SanityTest.AboutUsTests</td>
+<td></td>
+<td>1</td>
+<td>headers_SanityTest.AboutUsTests@7f2cfe3f</td></tr>
+<tr>
+<td title='headers_SanityTest.HomePageClickValidations.verifyCaseStudyNavigation()'><b>verifyCaseStudyNavigation</b><br>Test class: headers_SanityTest.HomePageClickValidations</td>
+<td></td>
+<td>1</td>
+<td>headers_SanityTest.HomePageClickValidations@7d9f158f</td></tr>
 <tr>
 <td title='headers_SanityTest.ResourcesTests.verifyWebinarTab()'><b>verifyWebinarTab</b><br>Test class: headers_SanityTest.ResourcesTests</td>
 <td></td>
-<td>11</td>
-<td>headers_SanityTest.ResourcesTests@928763c</td></tr>
+<td>1</td>
+<td>headers_SanityTest.ResourcesTests@28194a50</td></tr>
 <tr>
-<td title='headers_SanityTest.ProductsTests.verifySimplianceClassic()'><b>verifySimplianceClassic</b><br>Test class: headers_SanityTest.ProductsTests</td>
+<td title='headers_SanityTest.LoginTests.customer_elibraryLogin_shouldOpen()'><b>customer_elibraryLogin_shouldOpen</b><br>Test class: headers_SanityTest.LoginTests</td>
 <td></td>
-<td>3</td>
-<td>headers_SanityTest.ProductsTests@6f8e8894</td></tr>
+<td>1</td>
+<td>headers_SanityTest.LoginTests@1a5b6f42</td></tr>
 <tr>
-<td title='headers_SanityTest.ResourcesTests.verifyCaseStudiesTab()'><b>verifyCaseStudiesTab</b><br>Test class: headers_SanityTest.ResourcesTests</td>
+<td title='headers_SanityTest.LoginTests.employee_recruit_shouldOpen()'><b>employee_recruit_shouldOpen</b><br>Test class: headers_SanityTest.LoginTests</td>
 <td></td>
-<td>3</td>
-<td>headers_SanityTest.ResourcesTests@928763c</td></tr>
+<td>2</td>
+<td>headers_SanityTest.LoginTests@1a5b6f42</td></tr>
+<tr>
+<td title='headers_SanityTest.LoginTests.employee_remoSpLogin_shouldOpen()'><b>employee_remoSpLogin_shouldOpen</b><br>Test class: headers_SanityTest.LoginTests</td>
+<td></td>
+<td>1</td>
+<td>headers_SanityTest.LoginTests@1a5b6f42</td></tr>
+<tr>
+<td title='headers_SanityTest.ProductsTests.verifySimplianceRemo()'><b>verifySimplianceRemo</b><br>Test class: headers_SanityTest.ProductsTests</td>
+<td></td>
+<td>1</td>
+<td>headers_SanityTest.ProductsTests@50f6ac94</td></tr>
+<tr>
+<td title='headers_SanityTest.ELibraryTests.verifyLeaveWorkingHours()'><b>verifyLeaveWorkingHours</b><br>Test class: headers_SanityTest.ELibraryTests</td>
+<td></td>
+<td>2</td>
+<td>headers_SanityTest.ELibraryTests@6cc4cdb9</td></tr>
+<tr>
+<td title='headers_SanityTest.ResourcesTests.verifyESDMReportTab()'><b>verifyESDMReportTab</b><br>Test class: headers_SanityTest.ResourcesTests</td>
+<td></td>
+<td>1</td>
+<td>headers_SanityTest.ResourcesTests@28194a50</td></tr>
+<tr>
+<td title='headers_SanityTest.LoginTests.employee_generalMasters_shouldOpen()'><b>employee_generalMasters_shouldOpen</b><br>Test class: headers_SanityTest.LoginTests</td>
+<td></td>
+<td>2</td>
+<td>headers_SanityTest.LoginTests@1a5b6f42</td></tr>
+<tr>
+<td title='headers_SanityTest.ELibraryTests.verifyLatestMinimumWages()'><b>verifyLatestMinimumWages</b><br>Test class: headers_SanityTest.ELibraryTests</td>
+<td></td>
+<td>2</td>
+<td>headers_SanityTest.ELibraryTests@6cc4cdb9</td></tr>
+<tr>
+<td title='headers_SanityTest.AboutUsTests.verifyTestimonialsTab()'><b>verifyTestimonialsTab</b><br>Test class: headers_SanityTest.AboutUsTests</td>
+<td></td>
+<td>1</td>
+<td>headers_SanityTest.AboutUsTests@7f2cfe3f</td></tr>
+<tr>
+<td title='headers_SanityTest.ELibraryTests.verifyProvidentFund()'><b>verifyProvidentFund</b><br>Test class: headers_SanityTest.ELibraryTests</td>
+<td></td>
+<td>5</td>
+<td>headers_SanityTest.ELibraryTests@6cc4cdb9</td></tr>
+<tr>
+<td title='headers_SanityTest.LoginTests.employee_myPeople_shouldOpen()'><b>employee_myPeople_shouldOpen</b><br>Test class: headers_SanityTest.LoginTests</td>
+<td></td>
+<td>1</td>
+<td>headers_SanityTest.LoginTests@1a5b6f42</td></tr>
+<tr>
+<td title='headers_SanityTest.ResourcesTests.verifyMediaPressTab()'><b>verifyMediaPressTab</b><br>Test class: headers_SanityTest.ResourcesTests</td>
+<td></td>
+<td>1</td>
+<td>headers_SanityTest.ResourcesTests@28194a50</td></tr>
 <tr>
 <td title='headers_SanityTest.LoginTests.employee_expenses_shouldOpen()'><b>employee_expenses_shouldOpen</b><br>Test class: headers_SanityTest.LoginTests</td>
 <td></td>
 <td>2</td>
-<td>headers_SanityTest.LoginTests@15f47664</td></tr>
+<td>headers_SanityTest.LoginTests@1a5b6f42</td></tr>
+<tr>
+<td title='headers_SanityTest.EnquiryFormsTests.verifyEnquireNowForm()'><b>verifyEnquireNowForm</b><br>Test class: headers_SanityTest.EnquiryFormsTests</td>
+<td></td>
+<td>5</td>
+<td>headers_SanityTest.EnquiryFormsTests@32115b28</td></tr>
+<tr>
+<td title='headers_SanityTest.ELibraryTests.verifyLEIComplianceCalendarPDF()'><b>verifyLEIComplianceCalendarPDF</b><br>Test class: headers_SanityTest.ELibraryTests</td>
+<td></td>
+<td>1</td>
+<td>headers_SanityTest.ELibraryTests@6cc4cdb9</td></tr>
+<tr>
+<td title='headers_SanityTest.LoginTests.employee_classicAudit_shouldOpen()'><b>employee_classicAudit_shouldOpen</b><br>Test class: headers_SanityTest.LoginTests</td>
+<td></td>
+<td>5</td>
+<td>headers_SanityTest.LoginTests@1a5b6f42</td></tr>
+<tr>
+<td title='headers_SanityTest.AboutUsTests.verifyOurClientsTab()'><b>verifyOurClientsTab</b><br>Test class: headers_SanityTest.AboutUsTests</td>
+<td></td>
+<td>1</td>
+<td>headers_SanityTest.AboutUsTests@7f2cfe3f</td></tr>
+<tr>
+<td title='headers_SanityTest.EnquiryFormsTests.verifyContactUsForm()'><b>verifyContactUsForm</b><br>Test class: headers_SanityTest.EnquiryFormsTests</td>
+<td></td>
+<td>8</td>
+<td>headers_SanityTest.EnquiryFormsTests@32115b28</td></tr>
+<tr>
+<td title='headers_SanityTest.ServicesTests.verifyFlexiStaffingServices()'><b>verifyFlexiStaffingServices</b><br>Test class: headers_SanityTest.ServicesTests</td>
+<td></td>
+<td>1</td>
+<td>headers_SanityTest.ServicesTests@565f390</td></tr>
+<tr>
+<td title='headers_SanityTest.EnquiryFormsTests.verifyESDMIndustryReportForm()'><b>verifyESDMIndustryReportForm</b><br>Test class: headers_SanityTest.EnquiryFormsTests</td>
+<td></td>
+<td>2</td>
+<td>headers_SanityTest.EnquiryFormsTests@32115b28</td></tr>
+<tr>
+<td title='headers_SanityTest.ResourcesTests.verifyBlogTab()'><b>verifyBlogTab</b><br>Test class: headers_SanityTest.ResourcesTests</td>
+<td></td>
+<td>1</td>
+<td>headers_SanityTest.ResourcesTests@28194a50</td></tr>
+<tr>
+<td title='headers_SanityTest.LoginTests.employee_collect_shouldOpen()'><b>employee_collect_shouldOpen</b><br>Test class: headers_SanityTest.LoginTests</td>
+<td></td>
+<td>3</td>
+<td>headers_SanityTest.LoginTests@1a5b6f42</td></tr>
+<tr>
+<td title='headers_SanityTest.HomePageClickValidations.verifyISOQMSCertificatePDF()'><b>verifyISOQMSCertificatePDF</b><br>Test class: headers_SanityTest.HomePageClickValidations</td>
+<td></td>
+<td>1</td>
+<td>headers_SanityTest.HomePageClickValidations@7d9f158f</td></tr>
+<tr>
+<td title='headers_SanityTest.ServicesTests.verifyComplianceRiskAudit()'><b>verifyComplianceRiskAudit</b><br>Test class: headers_SanityTest.ServicesTests</td>
+<td></td>
+<td>1</td>
+<td>headers_SanityTest.ServicesTests@565f390</td></tr>
+<tr>
+<td title='headers_SanityTest.ELibraryTests.verifyProfessionalTax()'><b>verifyProfessionalTax</b><br>Test class: headers_SanityTest.ELibraryTests</td>
+<td></td>
+<td>3</td>
+<td>headers_SanityTest.ELibraryTests@6cc4cdb9</td></tr>
+<tr>
+<td title='headers_SanityTest.ResourcesTests.verifyCSRTab()'><b>verifyCSRTab</b><br>Test class: headers_SanityTest.ResourcesTests</td>
+<td></td>
+<td>1</td>
+<td>headers_SanityTest.ResourcesTests@28194a50</td></tr>
 </table><p>
 </body>
 </html>

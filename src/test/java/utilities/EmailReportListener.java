@@ -17,7 +17,8 @@ public class EmailReportListener implements ISuiteListener {
                 
                 "harshavardhan.ms@aparajitha.com"
         };
-
+//, "albin@aparajitha.com"
+        
         String reportPath = ExtentManager.getReportPath();
         String subject = "Aparajitha.com – Daily Sanity Automation Test Report - " + java.time.LocalDateTime.now();
         String body = "<p>Hi Team,</p>"

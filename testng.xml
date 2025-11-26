@@ -7,7 +7,7 @@
 	        <parameter name="browser" value="chrome" />
 	        <classes>
 	            <class name="headers_SanityTest.ServicesTests"/>
-	            <class name="headers_SanityTest.ProductsTests"/>
+				<class name="headers_SanityTest.ProductsTests"/>
 	            <class name="headers_SanityTest.ELibraryTests"/>
 	            <class name="headers_SanityTest.ResourcesTests"/>
 	            <class name="headers_SanityTest.AboutUsTests"/>
@@ -16,6 +16,7 @@
 	            <class name="headers_SanityTest.EnquiryFormsTests"/>
 	            <class name="headers_SanityTest.HomePageUITests"/>
 	            <class name="headers_SanityTest.HomePageClickValidations"/>
+	            
 	        </classes>
 	    </test>
 	
